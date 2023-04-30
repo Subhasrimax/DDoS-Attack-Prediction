@@ -200,7 +200,7 @@ if (selected == 'Data visualisation for UNSW Dataset'):
    
 if (selected == 'Data visualisation for KDD Dataset'):
     st.title('Data visualisation for KDD Dataset')
-    data=pd.read_csv('C:/Users/Subhasri R A/Documents/Datasets mini project/kddcup.csv',names=['duration', 'protocol_type', 'service', 'flag', 'src_bytes',
+    data=pd.read_csv('kddcup.csv.zip',names=['duration', 'protocol_type', 'service', 'flag', 'src_bytes',
        'dst_bytes', 'land', 'wrong_fragment', 'urgent', 'hot',
        'num_failed_logins', 'logged_in', 'num_compromised', 'root_shell',
        'su_attempted', 'num_root', 'num_file_creations', 'num_shells',
