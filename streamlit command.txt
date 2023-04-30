@@ -1,0 +1,1 @@
+streamlit run "C:\Users\Subhasri R A\Documents\DDos Attack Prediction System\DDos_Attack_Pred.py"
