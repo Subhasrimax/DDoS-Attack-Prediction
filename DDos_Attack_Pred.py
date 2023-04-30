@@ -33,7 +33,7 @@ def main():
     if (selected == 'Home'):
         # giving a title
         st.title("Machine Learning-Based Detection of Botnet DDoS Attacks: An Evaluation of Performance")
-        image=Image.open("C:/Users/Subhasri R A/Documents/DDos Attack Prediction System/th.jpg")
+        image=Image.open("dataset-cover.jpg")
         st.image(image, caption='',output_format="auto")
         '''Botnet DDoS (Distributed denial of service) attacks pose a significant risk to network security. They 
 can make websites and servers inaccessible to legitimate users by overwhelming them with traffic 
