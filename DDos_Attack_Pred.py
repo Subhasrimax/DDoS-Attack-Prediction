@@ -163,7 +163,7 @@ def kddmodel_prediction(input_data):
     
 if (selected == 'Data visualisation for UNSW Dataset'):
     st.title('Data visualisation for UNSW Dataset')
-    data=pd.read_csv('C:/Users/Subhasri R A/Documents/Datasets mini project/UNSW_NB15_training-set.csv')
+    data=pd.read_csv('UNSW_NB15_training-set.csv.zip')
     
     if st.checkbox("display dataset"):
         st.dataframe(data.head(10))
