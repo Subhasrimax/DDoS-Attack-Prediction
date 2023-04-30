@@ -16,8 +16,8 @@ from PIL import Image
 
 # loading the saved models
 
-unsw_model = pickle.load(open('C:/Users/Subhasri R A/Documents/DDos Attack Prediction System/models/unsw_model.sav', 'rb'))
-kdd_model = pickle.load(open('C:/Users/Subhasri R A/Documents/DDos Attack Prediction System/models/kdd_model.sav', 'rb'))
+unsw_model = pickle.load(open('unsw_model.sav', 'rb'))
+kdd_model = pickle.load(open('kdd_model.sav', 'rb'))
 
 # sidebar for navigation
 with st.sidebar:
